@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Algorithims4engineering</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Algorithims4engineers</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html#signup">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Portfolio Optimization</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Study different allocation strategies</h2>
+          <a href="portfolio-optimizer.html#projects" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Installation -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/install_port.gif" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Intallation</h4>
+              <p class="text-black-50 mb-0">Download <a href=https://conda.io/docs/user-guide/install/index.html>anaconda</a> and create the proper enviroment. Next, activate the enviroment and run the jupyter-notebook server.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build dataset -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/build_dataset.gif" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Build Dataset</h4>
+              <p class="text-black-50 mb-0">Compile individual csv files, which can be obtained on google-finance or yahoo, into one unique dataset. Individual csv files must have at least two columns names 'Date' and 'Close'. You can skip this step if you have a dataset ready, just save it as 'Daily_closing_prices.csv'</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- check returns-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/check_returns.gif" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Historical Data</h4>
+              <p class="text-black-50 mb-0">Plot the time series and check expected daily returns and volatility.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- check allport-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/check_allport.gif" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Efficient frontier</h4>
+              <p class="text-black-50 mb-0">Visualize the efficient frontier along with where each portfolio and stocks are located with respect to volatility and expected return. Supported portfolios are:
+                <ul>
+                  <li>Equal risk contribution</li>
+                  <li>Maximum sharpe</li>
+                  <li>Minimum variance</li>
+                  <li>Maximum return</li>
+                  <li>Equal weights</li>
+                </ul>
+                </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- BDT solver
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/solver.gif" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Learning Process</h4>
+                  <p class="mb-0 text-white-50">Python command-line tool to evaluate equity portfolio optimal allocation and periodic rebalancng strategies. <a href="https://github.com/RobinsoGarcia/portfolio-optimizer">(go2repo)</a></p></p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+
+
+
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="anaconda" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto" margin-bottom=10px>
+            <h2 class="text-white mb-4">Code</h2>
+            <p class="text-white-50">See the github page for more. <a href="https://github.com/RobinsoGarcia/portfolio-optimizer">(go2repo)</a></p>
+
+
+          <div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Your Website 2018
+        <p>e-mail: rlsg.mec@hotmail.com</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/font-awesome/js/all.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
